@@ -1,7 +1,8 @@
-const senhaDoUsuario = 12365
-const senhaDigitada = 12365
-if (senhaDoUsuario == senhaDigitada) {
-    console.log("Seja bem-vindo, você está Logado(a)")
+const notaDoAluno =3
+const notaDeCorte = 5
+
+if (notaDoAluno > notaDeCorte) {
+    console.log("Aprovado")
 } else  {
-    console.log("Sua Senha está incorreta, tente novamente!")
+    console.log("Reprovado")
 }
